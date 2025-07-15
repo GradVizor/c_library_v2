@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mavlink>
+  <version>3</version>
+  <messages>
+    <message id="43210" name="ROI_DATA">
+      <description>Selected ROI info from ground station (for visual tracking)</description>
+      <field type="uint64_t" name="timestamp">time since system start (microseconds)</field>
+      <field type="uint32_t" name="frame_id">Frame number from video stream</field>
+      <field type="uint32_t" name="x1">X-Coordinate of first point clicked</field>
+      <field type="uint32_t" name="y1">Y-Coordinate of first point clicked</field>
+      <field type="uint32_t" name="x2">X-Coordinate of last point clicked</field>
+      <field type="uint32_t" name="y2">Y-Coordinate of last point clicked</field>
+    </message>
+  </messages>
+</mavlink>

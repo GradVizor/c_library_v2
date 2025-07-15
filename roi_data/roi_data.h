@@ -10,7 +10,7 @@
     #error Wrong include order: MAVLINK_ROI_DATA.H MUST NOT BE DIRECTLY USED. Include mavlink.h from the same directory instead or set ALL AND EVERY defines from MAVLINK.H manually accordingly, including the #define MAVLINK_H call.
 #endif
 
-#define MAVLINK_ROI_DATA_XML_HASH -3418198380414527919
+#define MAVLINK_ROI_DATA_XML_HASH -8778706953398806895
 
 #ifdef __cplusplus
 extern "C" {
